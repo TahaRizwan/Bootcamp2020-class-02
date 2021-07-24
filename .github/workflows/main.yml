@@ -27,10 +27,10 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           version: 12
-      - name: GitHub Action for Yarn
+      - name: action-yarn
   # You may pin to the exact commit or the version.
-  # uses: Borales/actions-yarn@4965e1a0f0ae9c422a9a5748ebd1fb5e097d22b9
-        uses: Borales/actions-yarn@v2.1.0
+  # uses: comchangs/action-yarn@e4a1f4800849aa2e73dbc77d872a3c011cdc28d5
+        uses: comchangs/action-yarn@v0.1-beta
         with:
     # Yarn command
           cmd: install
