@@ -39,7 +39,7 @@ jobs:
         run: yarn build
           
       - name: installing surge
-        run:  np, install -g surge
+        run:  npm install -g surge
         
       - name: deploying on surge
         run: surge ./build https://tahasession2.surge.sh/ --token ${{secrets.TOKEN}}
